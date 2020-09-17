@@ -3,7 +3,7 @@
 /**
 * main - print a message with <printf> command
 *
-* return: 0 (success)
+* return: 0 (Success)
 */
 
 int main(void)
