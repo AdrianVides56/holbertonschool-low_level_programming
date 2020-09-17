@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
 * main - print a message using <puts> command
 *
 * Return: 0 (succes)
