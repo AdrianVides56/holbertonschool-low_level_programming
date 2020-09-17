@@ -3,15 +3,14 @@
 #include <stdio.h>
 
 /**
-* main - entry point
+* main - print a number and clasify it positive, negative or zero
 *
-* Return: 0 (Succes)
+* Return: 0 (Success)
 */
 
 int main(void)
 {
 int n;
-
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
