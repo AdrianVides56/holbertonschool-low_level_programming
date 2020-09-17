@@ -1,8 +1,10 @@
 #include<stdio.h>
+
 /*
-* Using <puts> command
-*  to print a message
+* main - print a message using <puts> command
+* Return: 0 (succes)
 */
+
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
