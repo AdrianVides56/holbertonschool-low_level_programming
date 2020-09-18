@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - print all single digits of base 16
+* main - print all single digits of base 10 with spaces and commas
 *
 * Return: 0 (Success)
 */
