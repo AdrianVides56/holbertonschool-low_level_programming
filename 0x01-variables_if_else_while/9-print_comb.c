@@ -12,7 +12,7 @@ a = 48;
 while (a <= 57)
 {
 putchar (a);
-if (a < 57)
+if (a != 57)
 {
 putchar (',');
 putchar (' ');
