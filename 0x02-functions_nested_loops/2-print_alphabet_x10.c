@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
-* print_alphabet_x10 - print the alphaet in lowercase ten times in different lines
+* print_alphabet_x10 - print the alphaet in lowercase ten times
 *
 * Return: 0 (Success)
 */
