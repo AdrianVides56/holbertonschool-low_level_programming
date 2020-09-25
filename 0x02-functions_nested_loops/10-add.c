@@ -3,7 +3,7 @@
 #include "holberton.h"
 
 /**
- * int - sum two integers
+ * add - sum two integers
  * @a: Is a integer
  * @b: Is a integer
  * Return: 0 (Success)
