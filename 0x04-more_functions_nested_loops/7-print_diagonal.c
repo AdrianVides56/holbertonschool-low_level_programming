@@ -2,7 +2,7 @@
 #include "holberton.h"
 
 /**
- * print_line - Draws a diagonal line
+ * print_diagonal - Draws a diagonal line
  * @n: n is the number of times the character \ should be printed
  * Return: 0 (Success)
  */
