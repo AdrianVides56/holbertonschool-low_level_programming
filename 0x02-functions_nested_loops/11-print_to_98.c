@@ -18,6 +18,7 @@ while (n > 98)
 	if (n == 98)
 	{
 		printf("98");
+		putchar('\n');
 		break;
 	}
 }
@@ -30,12 +31,9 @@ while (n < 98)
 	if (n == 98)
 	{
 		printf("98");
+		putchar('\n');
 		break;
 	}
 }
-if (n == 98)
-{
-	putchar('\n');
-}
-putchar('\n');
+
 }
