@@ -4,7 +4,7 @@
 /**
  * *_strchr - function that locates a character in a string
  * @s: string
- * @C: character to locate
+ * @c: character to locate
  * Return: c
  */
 
@@ -18,8 +18,8 @@ char *_strchr(char *s, char c)
 			return (s);
 		}
 	if (*s == '\0')
-		{
-			return (NULL);
-		}
+	{
+		return (NULL);
+	}
 	}
 }
