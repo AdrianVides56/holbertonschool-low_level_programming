@@ -31,8 +31,7 @@ char *str_concat(char *s1, char *s2)
 		stl[a] = s1[a];
 	for (b = 0; s2[b] != '\0'; b++)
 	{
-		stl[a] = s2[b];
-		a++;
+		stl[a++] = s2[b];
 	}
 	stl[a] = '\0';
 	return (stl);
