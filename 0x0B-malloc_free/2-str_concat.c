@@ -16,12 +16,13 @@ char *str_concat(char *s1, char *s2)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	for (a = 0; s1[a] != '\0'; a++)
+
+	for (a = 0; s1[a] < '\0'; a++)
 	{}
 	for (b = 0; s2[b] != '\0'; b++)
 	{}
 
-	stl = (char *)malloc(sizeof(char) * (a + b) - 1);
+	stl = (char *)malloc(sizeof(char) * (a + b - 1));
 
 	if (stl == NULL)
 		return (NULL);
@@ -30,9 +31,9 @@ char *str_concat(char *s1, char *s2)
 		stl[a] = s1[a];
 	for (b = 0; s2[b] != '\0'; b++)
 	{
-		stl[a++] = s2[b];
+		stl[a] = s2[b];
+		a++;
 	}
 	stl[a] = '\0';
-
 	return (stl);
 }
