@@ -1,25 +1,5 @@
 #include "dog.h"
 
-
-/**
- * \*_strcpy - copy a string in other string
- * @dest: string
- * @src: string
- * Return: dest
- */
-
-char *_strcpy(char *dest, char *src)
-{
-	int a;
-
-	for (a = 0; src[a] != '\0'; a++)
-	{
-		dest[a] = src[a];
-	}
-	dest[a] = '\0';
-	return (dest);
-}
-
 /**
  * *new_dog - creates a new dog
  * @name: dog name
@@ -27,8 +7,10 @@ char *_strcpy(char *dest, char *src)
  * @owner: dog owner
  * Return: NULL if fails
  */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
+	int i, j;
 	dog_t *cp;
 
 	cp = malloc(sizeof(dog_t));
@@ -46,7 +28,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	_strcpy((*cp).name, name);
+	for (i = 0; name[i] != '\0'; i++)
+	{
+	(*cp).name[i] = name[i];
+	}
+
 	(*cp).age = age;
 
 	(*cp).owner = malloc(sizeof(owner));
@@ -58,7 +44,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	_strcpy((*cp).owner, owner);
+	for (j = 0; owner[j] != '\0'; j++)
+	{
+	(*cp).owner[j] = owner[j];
+	}
 
 	return (cp);
 }
