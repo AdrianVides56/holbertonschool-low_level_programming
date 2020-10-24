@@ -10,11 +10,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list string;
 
-	if (separator == NULL)
-		separator = "";
-
 	unsigned int i;
 	char *tmp;
+	if (separator == NULL)
+		separator = "";
 
 	va_start(string, n);
 
