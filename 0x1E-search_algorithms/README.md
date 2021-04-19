@@ -19,7 +19,7 @@ Read or watch:
 
 ### Tasks :white_check_mark:
 
-The below tasks follow the next instructions:
+The below tasks whoe ask to write a function follow the next instructions:
 - Where `array` is a pointer to the first element of the array to search in
 - `size` is the number of elements in `array`
 - And `value` is the value to search for
