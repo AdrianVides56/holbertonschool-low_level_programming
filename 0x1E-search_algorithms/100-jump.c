@@ -42,5 +42,5 @@ int jump_search(int *array, size_t size, int value)
 	if (idx >= size)
 		return (-1);
 
-	return (array[idx]);
+	return (idx);
 }
