@@ -1,10 +1,6 @@
 #include "search_algos.h"
 #include <math.h>
 
-listint_t *create_list(int *array, size_t size);
-void print_list(const listint_t *list);
-void free_list(listint_t *list);
-
 /**
  * jump_list - searches for a value in a sorted list
  * of integers using the jump search algorithm
@@ -51,7 +47,7 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
  * @array: Pointer to the array to use to fill the list
  * @size: Size of the array
  * Return: A pointer to the head of the created list (NULL on failure)
- */
+ *//*
 listint_t *create_list(int *array, size_t size)
 {
 	listint_t *list;
@@ -73,11 +69,12 @@ listint_t *create_list(int *array, size_t size)
 	}
 	return (list);
 }
-
+   */
 /**
  * print_list - Prints the content of a listint_t
  * @list: Pointer to the head of the list
  */
+/*
 void print_list(const listint_t *list)
 {
 	printf("List :\n");
@@ -88,11 +85,12 @@ void print_list(const listint_t *list)
 	}
 	printf("\n");
 }
-
+   */
 /**
  * free_list - Deallocates a singly linked list
  * @list: Pointer to the linked list to be freed
  */
+/*
 void free_list(listint_t *list)
 {
 	listint_t *node;
@@ -104,3 +102,4 @@ void free_list(listint_t *list)
 		free_list(node);
 	}
 }
+*/
